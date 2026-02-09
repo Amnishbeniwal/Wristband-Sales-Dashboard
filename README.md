@@ -1,8 +1,13 @@
 # 📊 Sales & Customer Analytics – Wristband E-Commerce
 
 ## 📌 Project Overview
-This project presents a 3-page Power BI dashboard designed for a custom wristband e-commerce business similar to Wrist-Band.com.  
-The dashboard provides insights into sales performance, product demand, customer behavior, payment efficiency, and product quality.
+This project presents a **3-page Power BI dashboard** built for a custom wristband e-commerce business (similar to Wrist-Band.com).
+
+The solution covers **end-to-end analytics**:
+- Data cleaning & transformation using **Python**
+- Star schema data modeling
+- Advanced **DAX measures**
+- Business-focused visual storytelling in Power BI
 
 ---
 
@@ -16,11 +21,12 @@ The dashboard provides insights into sales performance, product demand, customer
 ---
 
 ## 🗂️ Dataset Description
-The dataset consists of 6 tables:
-- **Customers** – customer demographics and location
-- **Products** – wristband categories, sub-categories, and pricing
+The dataset consists of **6 tables**:
+
+- **Customers** – customer demographics, age group, country
+- **Products** – wristband categories, sub-categories, pricing
 - **Orders** – order-level transaction data
-- **Order_Items** – product-level sales and discounts
+- **Order_Items** – product-level sales, quantity, discounts
 - **Payments** – payment methods and payment status
 - **Reviews** – customer ratings and review dates
 
@@ -29,26 +35,28 @@ The dataset consists of 6 tables:
 ## 🧱 Data Model
 - Star schema design
 - One-to-many relationships
-- Sales calculated at item level to ensure correct category and product analysis
+- Sales calculated at **order item level** for accurate category & product analysis
+- Separate fact tables for payments and reviews
 
 ---
 
 ## 📊 Dashboard Pages
 
 ### 🟦 Page 1: Executive Sales Overview
-- Total Sales, Net Sales, Orders, AOV, Customers
+- KPIs: Total Sales, Net Sales, Orders, AOV, Customers
 - Sales trend over time
 - Sales by category and country
 - Order status distribution
 
 ### 🟦 Page 2: Product & Customer Insights
 - Top-selling wristband products
-- Category and sub-category analysis
+- Category & sub-category performance
 - Discount vs Net Sales comparison
 - Customer age group and regional analysis
 
 ### 🟦 Page 3: Payments & Product Quality
-- Payment success rate and method analysis
+- Payment success rate
+- Payment method analysis
 - Orders vs successful payments
 - Product rating distribution
 - Identification of low-rated products
@@ -56,32 +64,60 @@ The dataset consists of 6 tables:
 ---
 
 ## 🧮 Key Metrics & DAX
+- Total Sales
 - Net Sales
-- Average Order Value
+- Average Order Value (AOV)
 - Repeat Customer %
 - Discount Impact
 - Payment Success Rate
 - Average Product Rating
 
-(See `DAX_Measures.md` for full list)
+📄 Full DAX formulas available in **`DAX_Measures.md`**
+
+---
+
+## 🧹 Data Cleaning & Preparation
+- Performed using **Python (Pandas & NumPy)**
+- Handled missing values and duplicates
+- Created customer age groups
+- Validated sales and discount calculations
+- Exported clean datasets for Power BI
 
 ---
 
 ## 💡 Key Insights
 - Silicone wristbands generate the highest revenue
-- Customers aged 18–35 contribute the most sales
-- High discounts impact net margins in some categories
+- Customers aged **18–35** contribute the most sales
+- Heavy discounts reduce net margins in some categories
 - Card payments show the highest success rate
-- Products with ratings below 3 require quality improvement
+- Products rated below **3** need quality improvement
 
 ---
 
 ## 🛠 Tools Used
 - Power BI
 - DAX
+- Python (Pandas, NumPy)
 - Data Modeling (Star Schema)
 
 ---
 
 ## 📌 Outcome
-This dashboard enables stakeholders to make data-driven decisions related to pricing, marketing strategy, payment optimization, and product quality improvements.
+This dashboard enables stakeholders to make **data-driven decisions** related to:
+- Pricing strategy
+- Marketing targeting
+- Payment optimization
+- Product quality improvements
+
+
+
+## 🖼️ Dashboard Preview
+
+### Executive Sales Overview
+![Executive Overview](Executive Sales Overview.png)
+
+### Product & Customer Insights
+![Product Customer](Product & Customer Insights.png)
+
+### Payments & Product Quality
+![Payments Quality](Payments & Product Quality.png)
