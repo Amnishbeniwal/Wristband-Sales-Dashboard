@@ -120,4 +120,4 @@ This dashboard enables stakeholders to make **data-driven decisions** related to
 [![Product Customer]
 ](https://github.com/Amnishbeniwal/Wristband-Sales-Dashboard/blob/main/Product%20%26%20Customer%20Insights.png)
 ### Payments & Product Quality
-[![Payments Quality]](https://github.com/Amnishbeniwal/Wristband-Sales-Dashboard/blob/main/Payments%20%26%20Product%20Quality.png)
+[](https://github.com/Amnishbeniwal/Wristband-Sales-Dashboard/blob/main/Payments%20%26%20Product%20Quality.png)
