@@ -114,10 +114,9 @@ This dashboard enables stakeholders to make **data-driven decisions** related to
 ## 🖼️ Dashboard Preview
 
 ### Executive Sales Overview
-[![Executive Overview]](https://github.com/Amnishbeniwal/Wristband-Sales-Dashboard/blob/main/Executive%20Sales%20Overview.png)
+![Executive Overview](https://github.com/Amnishbeniwal/Wristband-Sales-Dashboard/blob/main/Executive%20Sales%20Overview.png)
 
 ### Product & Customer Insights
-[![Product Customer]
-](https://github.com/Amnishbeniwal/Wristband-Sales-Dashboard/blob/main/Product%20%26%20Customer%20Insights.png)
+![Product Customer](https://github.com/Amnishbeniwal/Wristband-Sales-Dashboard/blob/main/Product%20%26%20Customer%20Insights.png)
 ### Payments & Product Quality
-[](https://github.com/Amnishbeniwal/Wristband-Sales-Dashboard/blob/main/Payments%20%26%20Product%20Quality.png)
+![Payments Quality](https://github.com/Amnishbeniwal/Wristband-Sales-Dashboard/blob/main/Payments%20%26%20Product%20Quality.png)
